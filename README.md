@@ -21,7 +21,6 @@ yarn install
 ```jsx
 yarn start
 ```
-
 + Para testar aplicação sem precisar instalar basta aceder:
 ```jsx
 https://mambo-front-weather-app.herokuapp.com/
