@@ -48,6 +48,8 @@ export const Container = styled.div`
         width: 50px;
         height: 50px;
         align-self: center;
+        margin: 0px auto 40px auto;
+
     }
 
     @media (min-width: 360px) and (max-width: 768px) {

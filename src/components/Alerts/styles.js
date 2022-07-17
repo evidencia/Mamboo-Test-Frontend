@@ -22,7 +22,7 @@ export const Container = styled.div`
         li {
             display: flex;
             justify-content: space-between;
-            padding-top: 0px;
+            padding: 10px 0px;
 
             & + ul {
                 margin: 10px 0px;
@@ -39,8 +39,8 @@ export const Container = styled.div`
     }
 
     .icon {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         align-self: center;
         margin: 0px auto 40px auto;
     }
