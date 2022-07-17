@@ -25,12 +25,9 @@ export const Container = styled.div`
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
 
-            
-
             div {
                 width: 100%;
                 margin: 0 auto;
-
 
                 p{
                     font-size: 1rem;
@@ -76,8 +73,7 @@ export const Container = styled.div`
                     i{
                         margin: 10px  30px 10px 0px;
                         color: var(--text-title);
-
-
+                        
                         svg{
                             margin-right: 10px;
                             color: var(--text-body);

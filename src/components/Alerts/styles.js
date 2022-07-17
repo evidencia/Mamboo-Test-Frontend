@@ -6,21 +6,23 @@ export const Container = styled.div`
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    
     h2{
         font-size: 1.3rem;
         color: var(--text-body);
-        margin: 20px 20px;
+        margin: 20px 0px 0px 20px ;
         font-weight: 600;
     }
 
     ul {
         list-style: none;
-        margin: 10px 20px;
+        margin: 20px 20px;
+        padding: 10px;
 
         li {
             display: flex;
             justify-content: space-between;
-            padding-top: 10px;
+            padding-top: 0px;
 
             & + ul {
                 margin: 10px 0px;
@@ -33,14 +35,6 @@ export const Container = styled.div`
                 font-size: 1rem;
                 font-weight: bold;
             }
-
-            span {
-                cursor: pointer;
-                font-size: 1.5em;
-                padding-left: 10px;
-                color: var(--text-body);
-
-            }
         }
     }
 
@@ -48,6 +42,7 @@ export const Container = styled.div`
         width: 40px;
         height: 40px;
         align-self: center;
+        margin: 0px auto 40px auto;
     }
 
     @media (min-width: 360px) and (max-width: 768px) {
@@ -55,6 +50,10 @@ export const Container = styled.div`
         background: var(--box-body);
         border-radius: 10px;
         margin: 10px;
+
+        ul{
+            margin: 10px;
+        }
           
     }
 
