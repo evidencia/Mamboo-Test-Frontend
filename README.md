@@ -22,4 +22,10 @@ yarn install
 yarn start
 ```
 
++ Para testar aplicação sem precisar instalar basta aceder:
+```jsx
+https://mambo-front-weather-app.herokuapp.com/
+```
+
+
 + Precisa permitir o navegador a ter acesso a tua localização.
