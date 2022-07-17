@@ -21,3 +21,5 @@ yarn install
 ```jsx
 yarn start
 ```
+
++ Precisa permitir o navegador a ter acesso a tua localização.
